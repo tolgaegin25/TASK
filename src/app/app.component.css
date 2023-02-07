@@ -1,0 +1,11 @@
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 90%;
+  height: auto;
+  border: 1px solid #f4f8fb;
+  border-radius: 10px;
+  margin: 0 auto;
+  background: linear-gradient(#f4f8fb 81%, #fff 5%);
+  margin-top: 3em;
+}

@@ -1,0 +1,385 @@
+{
+    "pipes": [],
+    "interfaces": [],
+    "injectables": [],
+    "guards": [],
+    "interceptors": [],
+    "classes": [],
+    "directives": [],
+    "components": [
+        {
+            "name": "AppComponent",
+            "id": "component-AppComponent-12aa130cad8495ba369e9b31671795707cacb289735e0d264cc2d556ee6baefbcc4ac4675f87a3c8fedd900b173377d2f3b70447dc2683ce8ffce2f6ca0632c3",
+            "file": "src/app/app.component.ts",
+            "encapsulation": [],
+            "entryComponents": [],
+            "inputs": [],
+            "outputs": [],
+            "providers": [],
+            "selector": "app-root",
+            "styleUrls": [
+                "./app.component.css"
+            ],
+            "styles": [],
+            "templateUrl": [
+                "./app.component.html"
+            ],
+            "viewProviders": [],
+            "inputsClass": [],
+            "outputsClass": [],
+            "propertiesClass": [
+                {
+                    "name": "title",
+                    "defaultValue": "'pricing-page'",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "string",
+                    "optional": false,
+                    "description": "",
+                    "line": 9
+                }
+            ],
+            "methodsClass": [],
+            "deprecated": false,
+            "deprecationMessage": "",
+            "hostBindings": [],
+            "hostListeners": [],
+            "description": "",
+            "rawdescription": "\n",
+            "type": "component",
+            "sourceCode": "import { Component } from '@angular/core';\n\n@Component({\n  selector: 'app-root',\n  templateUrl: './app.component.html',\n  styleUrls: ['./app.component.css']\n})\nexport class AppComponent {\n  title = 'pricing-page';\n}\n",
+            "assetsDirs": [],
+            "styleUrlsData": [
+                {
+                    "data": ".container {\r\n  position: relative;\r\n  width: 100%;\r\n  max-width: 90%;\r\n  height: auto;\r\n  border: 1px solid #f4f8fb;\r\n  border-radius: 10px;\r\n  margin: 0 auto;\r\n  background: linear-gradient(#f4f8fb 79.7%, #fff 10%);\r\n  margin-top: 3em;\r\n}\r\n",
+                    "styleUrl": "./app.component.css"
+                }
+            ],
+            "stylesData": "",
+            "templateData": "<div class=\"container\">\n  <app-menu></app-menu>\n  <app-pricing></app-pricing>\n  <app-table></app-table>\n</div>\n"
+        },
+        {
+            "name": "MenuComponent",
+            "id": "component-MenuComponent-e962e06ead8980110ef8e85cff88da4a680c659b7654e8b5f8971a5aebada170c8073d7607b7b497ec42dffbe4fa23404cfc3676de586fcd7dfc55aaef4f5d6b",
+            "file": "src/app/menu/menu.component.ts",
+            "encapsulation": [],
+            "entryComponents": [],
+            "inputs": [],
+            "outputs": [],
+            "providers": [],
+            "selector": "app-menu",
+            "styleUrls": [
+                "./menu.component.css"
+            ],
+            "styles": [],
+            "templateUrl": [
+                "./menu.component.html"
+            ],
+            "viewProviders": [],
+            "inputsClass": [],
+            "outputsClass": [],
+            "propertiesClass": [],
+            "methodsClass": [],
+            "deprecated": false,
+            "deprecationMessage": "",
+            "hostBindings": [],
+            "hostListeners": [],
+            "description": "",
+            "rawdescription": "\n",
+            "type": "component",
+            "sourceCode": "import { Component } from '@angular/core';\n\n@Component({\n  selector: 'app-menu',\n  templateUrl: './menu.component.html',\n  styleUrls: ['./menu.component.css']\n})\nexport class MenuComponent {\n\n}\n",
+            "assetsDirs": [],
+            "styleUrlsData": [
+                {
+                    "data": "header {\r\n  width: 100%;\r\n  height: auto;\r\n}\r\n\r\n.navbar {\r\n  background: #fff;\r\n  border-radius: 10px 10px 0 0;\r\n}\r\n.navbar .right {\r\n  padding-right: 70px;\r\n}\r\n.navbar .toggle,\r\n.navbar .logo {\r\n  display: inline-block;\r\n}\r\n.navbar .item {\r\n  display: block;\r\n  width: 100%;\r\n  text-align: center;\r\n  padding: 1em;\r\n  text-decoration: none;\r\n  color: #8c8c8c;\r\n  font-weight: bold;\r\n}\r\n.navbar .btn {\r\n  padding: 15px;\r\n  background-color: #23aebc;\r\n  border-color: #23aebc;\r\n  border-radius: 6px;\r\n  color: #fff;\r\n}\r\n.navbar .logo {\r\n  width: 10em;\r\n  text-align: center;\r\n  padding: 1em;\r\n  color: #000;\r\n}\r\n.navbar .toggle {\r\n  padding: 1em;\r\n  vertical-align: middle;\r\n}\r\n.logo img {\r\n  width: 70px;\r\n}\r\n@media (min-width: 48em) {\r\n  .navbar {\r\n    display: flex;\r\n  }\r\n  .navbar .left,\r\n  .navbar .right {\r\n    display: flex;\r\n    flex: 1;\r\n    align-items: center;\r\n  }\r\n  .navbar .item {\r\n    width: auto;\r\n  }\r\n  .navbar .right {\r\n    justify-content: flex-end;\r\n  }\r\n  .navbar .toggle {\r\n    display: none;\r\n  }\r\n}\r\n.navbar div {\r\n  display: none;\r\n}\r\n@media (min-width: 48em) {\r\n  .navbar div {\r\n    display: flex;\r\n  }\r\n}\r\n\r\n@media (max-width: 48em) {\r\n  .navbar.active .toggle {\r\n    background: white;\r\n    color: #000;\r\n  }\r\n  .navbar.active div {\r\n    display: block;\r\n  }\r\n}\r\n",
+                    "styleUrl": "./menu.component.css"
+                }
+            ],
+            "stylesData": "",
+            "templateData": "<header>\n  <nav class=\"navbar\">\n    <a href=\"#\" class=\"toggle\"><i class=\"fa fa-reorder\"></i></a>\n    <a href=\"#\" class=\"logo\"><img src=\"../../assets/angular.png\" alt=\"\" /></a>\n    <div class=\"left\">\n      <a href=\"#\" class=\"item\">Product</a>\n      <a href=\"#\" class=\"item\">Features</a>\n      <a href=\"#\" class=\"item\">Pricing</a>\n      <a href=\"#\" class=\"item\">About Us</a>\n    </div>\n    <div class=\"right\">\n      <a href=\"#\" class=\"item\">Log in</a>\n      <a href=\"#\" class=\"item btn\">Get Started For Free</a>\n    </div>\n  </nav>\n</header>\n"
+        },
+        {
+            "name": "PricingAreaComponent",
+            "id": "component-PricingAreaComponent-c1da8cbbfa3b3abd17fab882e6b62844c130073aad64ff1b23a1194be13b066685291f57f9543aa16d3a3907f9cc74b05861feffce597eb02c67b53eeaba4a7b",
+            "file": "src/app/pricing-area/pricing-area.component.ts",
+            "encapsulation": [],
+            "entryComponents": [],
+            "inputs": [],
+            "outputs": [],
+            "providers": [],
+            "selector": "app-pricing-area",
+            "styleUrls": [
+                "./pricing-area.component.css"
+            ],
+            "styles": [],
+            "templateUrl": [
+                "./pricing-area.component.html"
+            ],
+            "viewProviders": [],
+            "inputsClass": [],
+            "outputsClass": [],
+            "propertiesClass": [],
+            "methodsClass": [],
+            "deprecated": false,
+            "deprecationMessage": "",
+            "hostBindings": [],
+            "hostListeners": [],
+            "description": "",
+            "rawdescription": "\n",
+            "type": "component",
+            "sourceCode": "import { Component } from '@angular/core';\n\n@Component({\n  selector: 'app-pricing-area',\n  templateUrl: './pricing-area.component.html',\n  styleUrls: ['./pricing-area.component.css'],\n})\nexport class PricingAreaComponent {}\n",
+            "assetsDirs": [],
+            "styleUrlsData": [
+                {
+                    "data": ".pricing {\r\n  display: flex;\r\n  justify-content: space-between;\r\n  max-width: 960px;\r\n  margin: auto;\r\n  padding-left: 5em;\r\n  padding-right: 5em;\r\n}\r\n.pricing-plan {\r\n  position: relative;\r\n  flex: 1;\r\n  background-color: #ffffff;\r\n  margin: 15px 8px;\r\n  padding: 30px 20px;\r\n  border-radius: 10px;\r\n  color: #2c2c2c;\r\n  text-align: left;\r\n}\r\n\r\n.pricing-plan:nth-child(3) {\r\n  background-color: #173e85;\r\n  color: White;\r\n}\r\n.pricing-plan:nth-child(3) > h2 {\r\n  color: #fff;\r\n}\r\n.pricing-plan:nth-child(3) > a {\r\n  background-color: #23aebc;\r\n}\r\n\r\n.pricing-plan:nth-child(3) > ul li h5 {\r\n  color: #b5b5b5;\r\n}\r\n.pricing-plan .exp {\r\n  color: #b5b5b5;\r\n}\r\n.pricing-plan .dolar {\r\n  color: #c5d0da;\r\n}\r\n@media (max-width: 768px) {\r\n  .pricing {\r\n    display: block;\r\n  }\r\n}\r\n.pricing-plan h2 {\r\n  margin-top: 0;\r\n  letter-spacing: 0.07em;\r\n  color: #2c2c2c;\r\n}\r\n.pricing-plan h5 {\r\n  color: #4f4f4f;\r\n}\r\n.pricing-plan p {\r\n  margin-top: 0;\r\n}\r\n.pricing-plan p span {\r\n  font-size: 70px;\r\n}\r\n.pricing-plan ul {\r\n  margin: 0 0 35px;\r\n  padding-left: 16px;\r\n  list-style: none;\r\n  line-height: 2;\r\n  color: #b5b5b5;\r\n}\r\n.pricing-plan h2 i {\r\n  color: #52b4bf;\r\n  padding-right: 5px;\r\n}\r\n.pricing-plan ul li i {\r\n  color: #7fb7de;\r\n  padding-right: 5px;\r\n}\r\n\r\n.pricing-plan a {\r\n  display: inline-block;\r\n  width: 80%;\r\n  text-decoration: none;\r\n  color: #fff;\r\n  padding: 15px 15px;\r\n  text-align: center;\r\n  background: #39a5f5;\r\n  border: 2px solid #39a5f5;\r\n  border-radius: 5px;\r\n  letter-spacing: 0.05em;\r\n  font-size: 15px;\r\n  font-weight: bold;\r\n}\r\n.pricing-plan a:hover {\r\n  background-color: #009ea6;\r\n  border-color: #009ea6;\r\n}\r\n.pricing-plan .seeall {\r\n  position: absolute;\r\n  bottom: 0;\r\n  left: 0;\r\n  width: 100%;\r\n  background-color: #f4f8fb;\r\n  display: block;\r\n  text-align: center;\r\n  padding: 0;\r\n  margin: 0;\r\n  height: 9%;\r\n  border-bottom-left-radius: 10px;\r\n  border-bottom-right-radius: 10px;\r\n}\r\n.pricing-plan .seeall p {\r\n  font-weight: bold;\r\n  padding: 0.8em;\r\n}\r\n.pricing-plan:nth-child(3) .seeall {\r\n  background-color: #1c355e;\r\n}\r\n\r\n.monthly-price {\r\n  display: none;\r\n}\r\n",
+                    "styleUrl": "./pricing-area.component.css"
+                }
+            ],
+            "stylesData": "",
+            "templateData": "<div class=\"pricing\">\n  <div class=\"pricing-plan\">\n    <h2><i class=\"fas fa-leaf\"></i>Lite</h2>\n    <p class=\"exp\">Perfect to get started</p>\n    <p class=\"yearly-price\">\n      <span class=\"dolar\">$</span><span>11</span> per seat/ month\n    </p>\n    <p class=\"monthly-price\">\n      <span class=\"dolar\">$</span><span>15</span> per seat/ month\n    </p>\n    <a href=\"#\">Try 7 days for free</a>\n    <ul>\n      <li><h5>Lite Includes:</h5></li>\n      <li><i class=\"fas fa-check\"></i>CMS Integration</li>\n      <li><i class=\"fas fa-check\"></i>E mail & SMS reminders</li>\n      <li><i class=\"fas fa-check\"></i>Customer Support 24/7</li>\n    </ul>\n    <div class=\"seeall\">\n      <p>See all features</p>\n    </div>\n  </div>\n  <div class=\"pricing-plan\">\n    <h2><i class=\"fas fa-robot\"></i>Pro</h2>\n    <p class=\"exp\">Best for professionals</p>\n    <p class=\"yearly-price\">\n      <span class=\"dolar\">$</span><span>19</span> per seat/ month\n    </p>\n    <p class=\"monthly-price\">\n      <span class=\"dolar\">$</span><span>25</span> per seat/ month\n    </p>\n    <a href=\"#\">Get Started</a>\n    <ul>\n      <li><h5>Everything in Lite, plus:</h5></li>\n      <li><i class=\"fas fa-check\"></i>Advanced Analytics</li>\n      <li><i class=\"fas fa-check\"></i>100+ Integrations</li>\n      <li><i class=\"fas fa-check\"></i>Chat Widget</li>\n      <li><i class=\"fas fa-check\"></i>Templates Library</li>\n    </ul>\n    <div class=\"seeall\"><p>See all features</p></div>\n  </div>\n  <div class=\"pricing-plan\">\n    <h2><i class=\"fas fa-bolt\"></i>Ultimate</h2>\n    <p class=\"exp\">Toolset for hard players</p>\n    <p class=\"yearly-price\">\n      <span class=\"dolar\">$</span><span>35</span> per seat/ month\n    </p>\n    <p class=\"monthly-price\">\n      <span class=\"dolar\">$</span><span>40</span> per seat/ month\n    </p>\n    <a href=\"#\">Get Started</a>\n    <ul>\n      <li><h5>Everything in Pro, plus:</h5></li>\n      <li><i class=\"fas fa-check\"></i>Daily performance reports</li>\n      <li><i class=\"fas fa-check\"></i>Dedicated assistant</li>\n      <li><i class=\"fas fa-check\"></i>Artifical Intelligence</li>\n      <li><i class=\"fas fa-check\"></i>Marketing toos & automations</li>\n    </ul>\n\n    <div class=\"seeall\">\n      <p>See all features</p>\n    </div>\n  </div>\n</div>\n"
+        },
+        {
+            "name": "PricingComponent",
+            "id": "component-PricingComponent-2830ab8b271c32eee8b237a1602e1fd6497970181c193c6c047864f1161a41a68510514368edb1c516bedc1bd8bd5b3bdffa7fec30f15d09fc2646a6370229a0",
+            "file": "src/app/pricing/pricing.component.ts",
+            "encapsulation": [],
+            "entryComponents": [],
+            "inputs": [],
+            "outputs": [],
+            "providers": [],
+            "selector": "app-pricing",
+            "styleUrls": [
+                "./pricing.component.css"
+            ],
+            "styles": [],
+            "templateUrl": [
+                "./pricing.component.html"
+            ],
+            "viewProviders": [],
+            "inputsClass": [],
+            "outputsClass": [],
+            "propertiesClass": [],
+            "methodsClass": [
+                {
+                    "name": "changeCheckBox",
+                    "args": [],
+                    "optional": false,
+                    "returnType": "void",
+                    "typeParameters": [],
+                    "line": 9,
+                    "deprecated": false,
+                    "deprecationMessage": ""
+                }
+            ],
+            "deprecated": false,
+            "deprecationMessage": "",
+            "hostBindings": [],
+            "hostListeners": [],
+            "description": "",
+            "rawdescription": "\n",
+            "type": "component",
+            "sourceCode": "import { Component } from '@angular/core';\ndeclare var $: any;\n@Component({\n  selector: 'app-pricing',\n  templateUrl: './pricing.component.html',\n  styleUrls: ['./pricing.component.css'],\n})\nexport class PricingComponent {\n  changeCheckBox() {\n    if ($('#boxcheck').prop('checked')) {\n      $('.monthly-price').css('display', 'none');\n      $('.yearly-price').css('display', 'inline-block');\n      $('.yearly-text').addClass('active');\n      $('.monthly-text').removeClass('active');\n    } else {\n      $('.monthly-price').css('display', 'inline-block');\n      $('.yearly-price').css('display', 'none');\n      $('.yearly-text').removeClass('active');\n      $('.monthly-text').addClass('active');\n    }\n  }\n}\n",
+            "assetsDirs": [],
+            "styleUrlsData": [
+                {
+                    "data": ".info {\r\n  padding-top: 30px;\r\n  text-align: center;\r\n  color: #242526;\r\n}\r\n.info p {\r\n  color: #989da7;\r\n}\r\n.info span {\r\n  border-bottom: 3px solid #23aebd;\r\n}\r\n\r\n.checkboxDiv {\r\n  display: flex;\r\n  justify-content: center;\r\n  align-items: center;\r\n  padding: 20px;\r\n}\r\n.checkboxDiv .monthly-text {\r\n  font-size: 17px;\r\n  padding-right: 10px;\r\n}\r\n.checkboxDiv .monthly-text {\r\n  font-size: 17px;\r\n  padding-left: 10px;\r\n}\r\n\r\n.switch {\r\n  position: relative;\r\n  display: inline-block;\r\n  width: 60px;\r\n  height: 34px;\r\n}\r\n\r\n.switch input {\r\n  opacity: 0;\r\n  width: 0;\r\n  height: 0;\r\n}\r\n\r\n.slider {\r\n  position: absolute;\r\n  cursor: pointer;\r\n  top: 0;\r\n  left: 0;\r\n  right: 0;\r\n  bottom: 0;\r\n  background-color: #ccc;\r\n  -webkit-transition: 0.4s;\r\n  transition: 0.4s;\r\n}\r\n\r\n.slider:before {\r\n  position: absolute;\r\n  content: \"\";\r\n  height: 26px;\r\n  width: 26px;\r\n  left: 4px;\r\n  bottom: 4px;\r\n  background-color: white;\r\n  -webkit-transition: 0.4s;\r\n  transition: 0.4s;\r\n}\r\n\r\ninput:checked + .slider {\r\n  background-color: #23aebd;\r\n}\r\n\r\ninput:focus + .slider {\r\n  box-shadow: 0 0 1px #23aebd;\r\n}\r\n\r\ninput:checked + .slider:before {\r\n  -webkit-transform: translateX(26px);\r\n  -ms-transform: translateX(26px);\r\n  transform: translateX(26px);\r\n}\r\n.slider.round {\r\n  border-radius: 34px;\r\n}\r\n\r\n.slider.round:before {\r\n  border-radius: 50%;\r\n}\r\n.active {\r\n  color: #23aebd;\r\n}\r\n",
+                    "styleUrl": "./pricing.component.css"
+                }
+            ],
+            "stylesData": "",
+            "templateData": "<div class=\"pricing-container\">\n  <div class=\"info\">\n    <h1>Ready to <span>get started?</span></h1>\n    <p>Choose a plan tailored to your needs</p>\n  </div>\n  <div class=\"checkboxDiv\">\n    <span class=\"monthly-text\">Monthly</span>\n    <label class=\"switch\">\n      <input\n        type=\"checkbox\"\n        name=\"boxcheck\"\n        id=\"boxcheck\"\n        checked\n        (change)=\"changeCheckBox()\"\n      />\n      <span class=\"slider round\"></span>\n    </label>\n    <span class=\"yearly-text active\">Yearly</span>\n  </div>\n  <app-pricing-area></app-pricing-area>\n</div>\n"
+        },
+        {
+            "name": "TableComponent",
+            "id": "component-TableComponent-1fd9b88e3a91da76ede3cda796295b5904f0bae044102cd7590b8a8fe20fb2aae5cd0b0db30b4ba1b9b5a3d36b2027a377243665554246367ac670b813387742",
+            "file": "src/app/table/table.component.ts",
+            "encapsulation": [],
+            "entryComponents": [],
+            "inputs": [],
+            "outputs": [],
+            "providers": [],
+            "selector": "app-table",
+            "styleUrls": [
+                "./table.component.css"
+            ],
+            "styles": [],
+            "templateUrl": [
+                "./table.component.html"
+            ],
+            "viewProviders": [],
+            "inputsClass": [],
+            "outputsClass": [],
+            "propertiesClass": [],
+            "methodsClass": [],
+            "deprecated": false,
+            "deprecationMessage": "",
+            "hostBindings": [],
+            "hostListeners": [],
+            "description": "",
+            "rawdescription": "\n",
+            "type": "component",
+            "sourceCode": "import { Component } from '@angular/core';\n\n@Component({\n  selector: 'app-table',\n  templateUrl: './table.component.html',\n  styleUrls: ['./table.component.css']\n})\nexport class TableComponent {\n\n}\n",
+            "assetsDirs": [],
+            "styleUrlsData": [
+                {
+                    "data": ".table-container {\r\n  padding: 0 15%;\r\n  margin: 40px auto 0;\r\n}\r\n.table {\r\n  width: 100%;\r\n  border-collapse: collapse;\r\n}\r\n\r\n.table tbody tr:nth-child(1) {\r\n  background-color: #f9fbfc;\r\n}\r\n\r\n.table thead tr th {\r\n  font-size: 14px;\r\n  font-weight: 600;\r\n  letter-spacing: 0.35px;\r\n  color: #000;\r\n  opacity: 1;\r\n  padding: 8px;\r\n}\r\n.table thead tr th:nth-child(1) {\r\n  text-align: left;\r\n}\r\n.table tbody tr td:nth-child(1) {\r\n  text-align: left;\r\n}\r\n.table tbody tr td {\r\n  text-align: center;\r\n  font-size: 14px;\r\n  letter-spacing: 0.35px;\r\n  font-weight: normal;\r\n  color: #000;\r\n  padding: 8px;\r\n}\r\n.table tr td i {\r\n  color: #5fade1;\r\n}\r\n\r\n@media (max-width: 768px) {\r\n  .table thead {\r\n    display: none;\r\n  }\r\n  .table,\r\n  .table tbody,\r\n  .table tr,\r\n  .table td {\r\n    display: block;\r\n    width: 100%;\r\n  }\r\n  .table tr {\r\n    margin-bottom: 15px;\r\n  }\r\n  .table tbody tr td {\r\n    padding-left: 40%;\r\n    text-align: left;\r\n    position: relative;\r\n  }\r\n  .table td::before {\r\n    content: attr(data-label);\r\n    position: absolute;\r\n    left: 0;\r\n  }\r\n}\r\n",
+                    "styleUrl": "./table.component.css"
+                }
+            ],
+            "stylesData": "",
+            "templateData": "<div class=\"table-container\">\n  <table class=\"table\">\n    <thead>\n      <tr>\n        <th>Overview</th>\n        <th>Lite</th>\n        <th>Pro</th>\n        <th>Ultimate</th>\n      </tr>\n    </thead>\n\n    <tbody>\n      <tr>\n        <td>CMS Integration</td>\n        <td data-label=\"Lite\"><i class=\"fas fa-check\"></i></td>\n        <td data-label=\"Pro\"><i class=\"fas fa-check\"></i></td>\n        <td data-label=\"Ultimate\"><i class=\"fas fa-check\"></i></td>\n      </tr>\n      <tr>\n        <td>Advanced Analytics</td>\n        <td data-label=\"Lite\"></td>\n        <td data-label=\"Pro\"><i class=\"fas fa-check\"></i></td>\n        <td data-label=\"Ultimate\"><i class=\"fas fa-check\"></i></td>\n      </tr>\n    </tbody>\n  </table>\n</div>\n"
+        }
+    ],
+    "modules": [
+        {
+            "name": "AppModule",
+            "id": "module-AppModule-a85961b23d573ae2ec2a4108e8ae8170af65fa2d82a0ee0e88e14340f1ef0dd6ad54827f3ab13f3b204126980befe65b03d629600933a4a9d112fbc66e41fde5",
+            "description": "",
+            "deprecationMessage": "",
+            "deprecated": false,
+            "file": "src/app/app.module.ts",
+            "methods": [],
+            "sourceCode": "import { NgModule } from '@angular/core';\nimport { BrowserModule } from '@angular/platform-browser';\n\nimport { AppComponent } from './app.component';\nimport { MenuComponent } from './menu/menu.component';\nimport { TableComponent } from './table/table.component';\nimport { PricingComponent } from './pricing/pricing.component';\nimport { PricingAreaComponent } from './pricing-area/pricing-area.component';\n\n@NgModule({\n  declarations: [AppComponent, MenuComponent, TableComponent, PricingComponent, PricingAreaComponent],\n  imports: [BrowserModule],\n  providers: [],\n  bootstrap: [AppComponent],\n})\nexport class AppModule {}\n",
+            "children": [
+                {
+                    "type": "providers",
+                    "elements": []
+                },
+                {
+                    "type": "declarations",
+                    "elements": [
+                        {
+                            "name": "AppComponent"
+                        },
+                        {
+                            "name": "MenuComponent"
+                        },
+                        {
+                            "name": "PricingAreaComponent"
+                        },
+                        {
+                            "name": "PricingComponent"
+                        },
+                        {
+                            "name": "TableComponent"
+                        }
+                    ]
+                },
+                {
+                    "type": "imports",
+                    "elements": []
+                },
+                {
+                    "type": "exports",
+                    "elements": []
+                },
+                {
+                    "type": "bootstrap",
+                    "elements": [
+                        {
+                            "name": "AppComponent"
+                        }
+                    ]
+                },
+                {
+                    "type": "classes",
+                    "elements": []
+                }
+            ]
+        }
+    ],
+    "miscellaneous": {
+        "variables": [
+            {
+                "name": "$",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "src/app/pricing/pricing.component.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "any"
+            }
+        ],
+        "functions": [],
+        "typealiases": [],
+        "enumerations": [],
+        "groupedVariables": {
+            "src/app/pricing/pricing.component.ts": [
+                {
+                    "name": "$",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "src/app/pricing/pricing.component.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "any"
+                }
+            ]
+        },
+        "groupedFunctions": {},
+        "groupedEnumerations": {},
+        "groupedTypeAliases": {}
+    },
+    "routes": [],
+    "coverage": {
+        "count": 0,
+        "status": "low",
+        "files": [
+            {
+                "filePath": "src/app/app.component.ts",
+                "type": "component",
+                "linktype": "component",
+                "name": "AppComponent",
+                "coveragePercent": 0,
+                "coverageCount": "0/2",
+                "status": "low"
+            },
+            {
+                "filePath": "src/app/menu/menu.component.ts",
+                "type": "component",
+                "linktype": "component",
+                "name": "MenuComponent",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
+                "filePath": "src/app/pricing-area/pricing-area.component.ts",
+                "type": "component",
+                "linktype": "component",
+                "name": "PricingAreaComponent",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
+                "filePath": "src/app/pricing/pricing.component.ts",
+                "type": "component",
+                "linktype": "component",
+                "name": "PricingComponent",
+                "coveragePercent": 0,
+                "coverageCount": "0/2",
+                "status": "low"
+            },
+            {
+                "filePath": "src/app/pricing/pricing.component.ts",
+                "type": "variable",
+                "linktype": "miscellaneous",
+                "linksubtype": "variable",
+                "name": "$",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
+                "filePath": "src/app/table/table.component.ts",
+                "type": "component",
+                "linktype": "component",
+                "name": "TableComponent",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            }
+        ]
+    }
+}

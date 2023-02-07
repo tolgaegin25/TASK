@@ -1,0 +1,21 @@
+<div class="pricing-container">
+  <div class="info">
+    <h1>Ready to <span>get started?</span></h1>
+    <p>Choose a plan tailored to your needs</p>
+  </div>
+  <div class="checkboxDiv">
+    <span class="monthly-text">Monthly</span>
+    <label class="switch">
+      <input
+        type="checkbox"
+        name="boxcheck"
+        id="boxcheck"
+        checked
+        (change)="changeCheckBox()"
+      />
+      <span class="slider round"></span>
+    </label>
+    <span class="yearly-text active">Yearly</span>
+  </div>
+  <app-pricing-area></app-pricing-area>
+</div>

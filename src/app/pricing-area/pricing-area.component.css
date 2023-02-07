@@ -1,0 +1,138 @@
+.pricing {
+  display: flex;
+  justify-content: space-between;
+  max-width: 960px;
+  margin: auto;
+  padding-left: 4em;
+  padding-right: 4em;
+}
+.pricing-plan {
+  position: relative;
+  flex: 1;
+  background-color: #ffffff;
+  margin: 15px 8px;
+  padding: 30px 20px;
+  border-radius: 10px;
+  color: #2c2c2c;
+  text-align: left;
+}
+
+.pricing-plan:nth-child(3) {
+  background-color: #173e85;
+  color: White;
+}
+.pricing-plan:nth-child(3) h2 {
+  color: #fff;
+}
+.pricing-plan:nth-child(3) > a {
+  border-color: #23aebc;
+  background-color: #23aebc;
+}
+.pricing-plan:nth-child(3) > a:hover {
+  border-color: #39a5f5;
+  background-color: #39a5f5;
+}
+
+.pricing-plan:nth-child(3) ul li h5 {
+  color: #b5b5b5;
+}
+.pricing-plan .exp {
+  color: #b5b5b5;
+}
+.pricing-plan .dolar {
+  color: #c5d0da;
+}
+@media (max-width: 48em) {
+  .pricing {
+    display: block;
+  }
+}
+.pricing-plan h2 {
+  margin-top: 0;
+  letter-spacing: 0.07em;
+  color: #2c2c2c;
+}
+.pricing-plan h5 {
+  color: #4f4f4f;
+}
+.pricing-plan p {
+  margin-top: 0;
+}
+.pricing-plan p span {
+  font-size: 70px;
+}
+.pricing-plan ul {
+  margin: 0 0 35px;
+  padding-left: 16px;
+  list-style: none;
+  line-height: 2;
+  color: #b5b5b5;
+}
+.pricing-plan h2 i {
+  color: #52b4bf;
+  padding-right: 5px;
+}
+.pricing-plan ul li i {
+  color: #7fb7de;
+  padding-right: 5px;
+}
+
+.pricing-plan a {
+  display: inline-block;
+  width: 80%;
+  text-decoration: none;
+  color: #fff;
+  padding: 15px 15px;
+  text-align: center;
+  background: #39a5f5;
+  border: 2px solid #39a5f5;
+  border-radius: 5px;
+  letter-spacing: 0.05em;
+  font-size: 15px;
+  font-weight: bold;
+}
+.pricing-plan a:hover {
+  background-color: #23aebc;
+  border-color: #23aebc;
+}
+.pricing-plan .seeall {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #f4f8fb;
+  display: block;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  height: 9%;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.pricing-plan .seeall p {
+  font-weight: bold;
+  padding: 0.8em;
+}
+.pricing-plan:nth-child(3) .seeall {
+  background-color: #1c355e;
+}
+
+.monthly-price {
+  display: none;
+}
+
+.feature {
+  font-size: 12px;
+  color: #23aebc;
+  background-color: #234f82;
+  padding: 6px;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.Pro {
+  background-color: #f4f8fb;
+  position: absolute;
+  top: 2%;
+  right: 2%;
+}
